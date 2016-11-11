@@ -74,7 +74,7 @@ marginals = Marginals(graph, results);
 
 % plot result trajectory
 figure(1)
-hold on
+hold on, axis equal
 
 % black lines are odometry
 % black ellipse are estimated covariance on x-y plane

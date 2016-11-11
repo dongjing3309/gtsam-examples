@@ -80,7 +80,7 @@ marginals = Marginals(graph, results);
 
 % plot result trajectory
 figure(1)
-hold on
+hold on, axis equal
 
 % black lines are odometry
 % red line is loop closure
